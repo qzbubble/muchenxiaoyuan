@@ -92,7 +92,7 @@
            </scroll-view>
         </view>
     </view>
-     <view class='wrapper'>
+     <view class='wrapper' wx:if="{{bastBanner.length > 0}}">
        <view class='title acea-row row-between-wrapper'>
           <view class='text'>
              <view class='name line1'>精品推荐</view>
@@ -114,7 +114,7 @@
        </view>
        <goodList bastList="{{bastList}}"></goodList>
     </view>
-    <view class='hotList'>
+    <view class='hotList'  wx:if="{{likeInfo.length > 0}}">
        <view class='hot-bg'>
           <view class='title acea-row row-between-wrapper'>
             <view class='text line1'><text class='label'>热门榜单</text>根据销量、搜索、好评等综合得出</view>
@@ -141,7 +141,7 @@
         <image src='{{item.img}}'></image>
       </block>  
     </view>
-     <view class='wrapper'>
+     <view class='wrapper' wx:if="{{firstInfo.length > 0}}" >
        <view class='title acea-row row-between-wrapper'>
           <view class='text'>
              <view class='name line1'>首发新品<text class='new font-color'>NEW~</text></view>
@@ -163,7 +163,7 @@
            </scroll-view>
         </view>
     </view>
-    <view class='wrapper'>
+    <view class='wrapper' wx:if="{{salesInfo.length > 0}}" >
        <view class='title acea-row row-between-wrapper'>
           <view class='text'>
              <view class='name line1'>促销单品</view>

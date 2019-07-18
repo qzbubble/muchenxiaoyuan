@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -17,7 +17,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.6.4",
 	"appid": "wx16239da51c5da700",
-	"projectname": "%E6%B2%90%E5%B0%98%E5%B0%8F%E9%99%A2",
+	"projectname": "沐尘小院",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
